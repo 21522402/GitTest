@@ -9,5 +9,20 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Seach:Search HorizontalAlignment="Left" Margin="145,163,0,0" VerticalAlignment="Top"/>
+        <WrapPanel Orientation="Horizontal" VerticalAlignment="Top">
+
+            <Button Style="{StaticResource RedBtn}" 
+                    Content="Hủy"/>
+
+            <Button Style="{StaticResource GreenBtn}" 
+                    Content="Xác Nhận"/>
+
+            <Button Style="{StaticResource YellowBtn}" 
+                    Content="Cảnh Báo"/>
+
+
+            <Button Style="{StaticResource BlueBtn}" 
+                    Content="Lưu"/>
+        </WrapPanel>
     </Grid>
 </Window>
