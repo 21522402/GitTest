@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <WrapPanel Orientation="Horizontal" VerticalAlignment="Top">
 
+            <Button Style="{StaticResource RedBtn}" 
+                    Content="Hủy"/>
+
+            <Button Style="{StaticResource GreenBtn}" 
+                    Content="Xác Nhận"/>
+
+            <Button Style="{StaticResource YellowBtn}" 
+                    Content="Cảnh Báo"/>
+
+
+            <Button Style="{StaticResource BlueBtn}" 
+                    Content="Lưu"/>
+        </WrapPanel>
     </Grid>
 </Window>
