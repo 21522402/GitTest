@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:GitTest"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="./Resource/Fonts/Fonts.xaml"/>
+                <ResourceDictionary Source="./Resource/Colors/Colors.xaml"/>
+                <ResourceDictionary Source="./Resource/Icons/Icons.xaml"/>
+                <ResourceDictionary Source="./Resource/Images/Images.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
